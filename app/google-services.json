@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395465709952",
+    "project_id": "ecampus-2a6b8",
+    "storage_bucket": "ecampus-2a6b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395465709952:android:2a28e0154aeb91a309c965",
+        "android_client_info": {
+          "package_name": "com.omerbircan.ecampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395465709952-b9tq9uqef67bt7nccvsf8opqtmooto52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARNUfn3KBEMUYHX33pwfPDabuYEogWXts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395465709952-b9tq9uqef67bt7nccvsf8opqtmooto52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
