@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="228dp"
+        android:layout_height="138dp"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:text="Home Page"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
