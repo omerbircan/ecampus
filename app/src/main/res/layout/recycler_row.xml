@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="username"
         android:textSize="20dp"
-        android:textColor="#592CC3"
+        android:textColor="#1998AF"
         android:layout_margin="10dp"
         >
     </TextView>
@@ -29,5 +29,13 @@
         >
 
     </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#787777"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
 
 </LinearLayout>
