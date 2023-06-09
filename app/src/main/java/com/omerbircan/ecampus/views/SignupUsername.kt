@@ -31,7 +31,7 @@ class SignupUsername : AppCompatActivity() {
         val username = binding.UserNameText.text.toString()
 
         if(username.isEmpty()){
-            Toast.makeText(this, "Alan boş", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "empty space", Toast.LENGTH_SHORT).show()
         } else if(username.length < 4){
             Toast.makeText(this, "min 4 char", Toast.LENGTH_SHORT).show()
         }
@@ -74,6 +74,7 @@ class SignupUsername : AppCompatActivity() {
                         .addOnSuccessListener {
                             // Güncelleme başarılı
                             val intent = Intent(this@SignupUsername, HomePage::class.java)
+                            intent.putExtra("username", username)
                             startActivity(intent)
                             finish()
                         }

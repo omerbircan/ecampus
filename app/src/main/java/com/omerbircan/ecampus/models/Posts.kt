@@ -1,5 +1,6 @@
 package com.omerbircan.ecampus.models
 
-data class Posts(val username: String, val content: String) {
+
+data class Posts(val username: String, val content: String, val time: String) {
 
 }

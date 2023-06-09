@@ -20,6 +20,8 @@ class RecyclerviewAdapter(val postList: ArrayList<Posts>): RecyclerView.Adapter<
     override fun onBindViewHolder(holder: postHolder, position: Int) {
         holder.binding.usernameId.text = postList.get(position).username
         holder.binding.contentId.text = postList.get(position).content
+        holder.binding.timeId.text = postList.get(position).time
+
 
         
     }

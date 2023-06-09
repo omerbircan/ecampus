@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.google.firebase.Timestamp
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
 import com.omerbircan.ecampus.databinding.ActivityNewPostBinding
@@ -39,7 +40,7 @@ class NewPost : AppCompatActivity() {
                 "likes" to 0,
                 "username" to username,
                 "content" to content,
-                "timestamp" to FieldValue.serverTimestamp()
+                "timestamp" to Timestamp.now()
             )
 
             val postDocumentRef = postsCollectionRef.document()

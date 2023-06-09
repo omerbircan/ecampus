@@ -8,11 +8,11 @@
 
     <TextView
         android:id="@+id/usernameId"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="username"
         android:textSize="20dp"
-        android:textColor="#1998AF"
+        android:textColor="#FFFFFF"
         android:layout_margin="10dp"
         >
     </TextView>
@@ -21,10 +21,28 @@
         android:id="@+id/contentId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
         android:text="content"
+        android:textColor="#FFFFFF"
         android:textSize="16dp"
-        android:layout_margin="10dp"
-        android:textColor="#D455EB"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/timeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="5dp"
+        android:text="time"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+
 
         >
 
